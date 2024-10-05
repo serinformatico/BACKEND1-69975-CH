@@ -1,0 +1,24 @@
+{
+    "name": "proyecto_base",
+    "version": "1.0.0",
+    "description": "Proyecto Base (Servidor de Node JS + Express)",
+    "main": "src/server.js",
+    "type": "module",
+    "scripts": {
+        "dev": "node --watch --no-warnings ./src/server.js",
+        "start": "node ./src/server.js",
+        "stop-windows": "taskkill /F /IM node.exe",
+        "stop-linux": "killall -9 node",
+        "lint": "eslint ./src --fix"
+    },
+    "keywords": [],
+    "author": "Sergio Regalado Alessi",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.19.2"
+    },
+    "devDependencies": {
+        "eslint": "^8.57.0"
+    }
+}
+Chicos ya subí al repo la clase de hoy (14) y los ejemplos de primera y segunda entrega para que la miren, analicen y prueben. la usen de guía (contexto: )
