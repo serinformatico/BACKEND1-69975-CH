@@ -1,7 +1,7 @@
 import { connect, Types } from "mongoose";
 
 const connectDB = () => {
-    const URI = "mongodb+srv://sergio:Y2aiTV3letzbtqiV@cluster0.4i0l5oa.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+    const URI = "mongodb+srv://tuUsuario:tuClave@tuCluster.mongodb.net";
 
     const options = {
         useNewUrlParser: true, // Utiliza el nuevo motor de análisis de URL de MongoDB.
